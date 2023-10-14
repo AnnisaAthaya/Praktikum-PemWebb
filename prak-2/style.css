@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: whitesmoke;
+    border: solid;
+}
+
+.head {
+    display:flex;
+    background-color: yellowgreen;
+    padding: 10px;
+    justify-content: start;
+    align-items: center;
+}
+
+.gambar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.side {
+    margin-left: 20px;
+    color:darkolivegreen;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    background-color: ash grey;
+}
+
+.menu {
+    list-style: none;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.tentang {
+    background-color:palevioletred;
+    margin: 10px;
+    padding: 10px;
+}
+
+.tentang h2 {
+    color: blanchedalmond;
+}
+
+.tentang div {
+    display: flex;
+    justify-content: center;
+}
+
+.tentang video {
+    width: 300px;
+    height: 150px;
+}
+
+.Pengalaman {
+    background-color: whitesmoke;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.Pengalaman table {
+    background-color:peachpuff;
+    color: black;
+}
+
+.judul {
+    background-color: white;
+}
+
+.form {
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn {
+    background-color: whitesmoke;
+    color: black;
+    padding: 5px;
+}
